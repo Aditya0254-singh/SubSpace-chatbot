@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -22,3 +23,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# dependencies
+/node_modules
+
+# build output
+/dist
+
+# temp files
+.env
+.env.local
+.DS_Store
+
