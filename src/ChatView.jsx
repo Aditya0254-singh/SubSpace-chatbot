@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useState } from 'react';
 import { gql, useSubscription, useMutation } from '@apollo/client';
 
@@ -82,7 +82,7 @@ const ChatView = ({ chatId }) => {
   );
 };
 
-=======
+
 import React, { useState } from 'react';
 import { gql, useSubscription, useMutation } from '@apollo/client';
 
@@ -166,5 +166,5 @@ const ChatView = ({ chatId }) => {
   );
 };
 
->>>>>>> bf384a1ffb625aa88b4549375e3c244de2a7f290
+
 export default ChatView;

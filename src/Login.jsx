@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useState } from 'react';
 import { useSignInEmailPassword, useSignUpEmailPassword } from '@nhost/react';
 
@@ -61,7 +61,7 @@ const Login = () => {
   );
 };
 
-=======
+
 import React, { useState } from 'react';
 import { useSignInEmailPassword, useSignUpEmailPassword } from '@nhost/react';
 
@@ -124,5 +124,4 @@ const Login = () => {
   );
 };
 
->>>>>>> bf384a1ffb625aa88b4549375e3c244de2a7f290
 export default Login;
