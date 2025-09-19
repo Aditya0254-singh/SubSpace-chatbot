@@ -1,12 +1,50 @@
-# React + Vite
+🤖 Full-Stack Chatbot Application
+A modern, real-time chatbot application built as a full-stack internship assessment. This project demonstrates proficiency in building secure, scalable, and dynamic web applications.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Key Features
+-> Real-time Communication: Utilizes GraphQL subscriptions to provide instant, real-time message updates without needing to refresh the page.
 
-Currently, two official plugins are available:
+-> Secure Authentication: Implements email-based authentication with a secure user system powered by Nhost Auth.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-> AI-Powered Responses: Integrates with the OpenRouter API to generate intelligent chatbot responses, with all business logic handled securely on the backend.
 
-## Expanding the ESLint configuration
+-> Role-Based Security: Employs Hasura's Row-Level Security (RLS) to restrict data access, ensuring users can only read and write their own chat data.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-> Full-Stack Integration: Demonstrates a complete backend-to-frontend pipeline, using n8n to orchestrate communication between the frontend, database, and third-party APIs.
+
+💻 Tech Stack
+-> Frontend: React, Vite
+
+-> Backend: Nhost, Hasura, n8n, OpenRouter
+
+-> Languages: JavaScript, GraphQL
+
+-> Deployment: Netlify
+
+⚙️ Getting Started
+Follow these steps to set up and run the application in a local development environment.
+
+**Prerequisites**
+-> Node.js (v18 or higher)
+-> npm
+-> A Nhost project with the correct database and Action configurations (as outlined in the original assignment).
+
+**Installation**
+1. Clone the repository:
+                     git clone [https://github.com/Aditya0254-singh/Subspace-chatbot](https://github.com/Aditya0254-singh/Subspace-chatbot)
+                     cd Subspace-chatbot
+
+2. Install dependencies:
+                     npm install
+
+3. Configure environment variables:
+                     Create a .env file in the project root.
+   
+4. Add your Nhost subdomain and region to the .env file:
+                     VITE_NHOST_SUBDOMAIN=noodbonidjwqpyyhkkas
+                     VITE_NHOST_REGION=ap-south-1
+
+5. Run the application:
+                     npm run dev
+
+**The application will be available at http://localhost:5173.**
