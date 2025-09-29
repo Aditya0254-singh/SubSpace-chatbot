@@ -1,4 +1,4 @@
-🤖 Full-Stack Chatbot Application
+🤖 Supspace Chatbot:
 A modern, real-time chatbot application built as a full-stack internship assessment. This project demonstrates proficiency in building secure, scalable, and dynamic web applications.
 
 🚀 Key Features
