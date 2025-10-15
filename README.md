@@ -1,50 +1,119 @@
-🤖 Supspace Chatbot:
-A modern, real-time chatbot application built as a full-stack internship assessment. This project demonstrates proficiency in building secure, scalable, and dynamic web applications.
+<h1 align="center">🤖 SubSpace Chatbot – Full-Stack Real-Time AI Chat Application</h1>
 
-🚀 Key Features
--> Real-time Communication: Utilizes GraphQL subscriptions to provide instant, real-time message updates without needing to refresh the page.
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React-%2361DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Backend-Nhost%20%7C%20Hasura-orange?style=for-the-badge&logo=hasura&logoColor=white" />
+  <img src="https://img.shields.io/badge/Orchestration-n8n-blue?style=for-the-badge&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-OpenRouter-4B0082?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Deployment-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+</p>
 
--> Secure Authentication: Implements email-based authentication with a secure user system powered by Nhost Auth.
+---
 
--> AI-Powered Responses: Integrates with the OpenRouter API to generate intelligent chatbot responses, with all business logic handled securely on the backend.
+## 📖 Project Overview
 
--> Role-Based Security: Employs Hasura's Row-Level Security (RLS) to restrict data access, ensuring users can only read and write their own chat data.
+**SubSpace Chatbot** is a **modern full-stack real-time chatbot application**, built as part of a full-stack internship assessment.  
 
--> Full-Stack Integration: Demonstrates a complete backend-to-frontend pipeline, using n8n to orchestrate communication between the frontend, database, and third-party APIs.
+It demonstrates proficiency in building **secure, scalable, and dynamic web applications** by combining powerful backend services, real-time communication, and AI-driven responses.
 
-💻 Tech Stack
--> Frontend: React, Vite
+This project integrates **Nhost, Hasura, n8n**, and **OpenRouter** APIs with a React frontend, enabling real-time messaging and role-based security in a production-ready architecture.
 
--> Backend: Nhost, Hasura, n8n, OpenRouter
+---
 
--> Languages: JavaScript, GraphQL
+## ✨ Key Features
 
--> Deployment: Netlify
+- ⚡ **Real-Time Communication**  
+  Uses **GraphQL subscriptions** to deliver instant chat updates without refreshing the page.
 
-⚙️ Getting Started
-Follow these steps to set up and run the application in a local development environment.
+- 🔐 **Secure Authentication**  
+  Implements **email-based login** using Nhost Auth for a fully managed and secure user system.
 
-**Prerequisites**
--> Node.js (v18 or higher)
--> npm
--> A Nhost project with the correct database and Action configurations (as outlined in the original assignment).
+- 🧠 **AI-Powered Responses**  
+  Integrates with **OpenRouter API** to generate intelligent chatbot replies, with business logic handled securely on the backend.
 
-**Installation**
-1. Clone the repository:
-                     git clone [https://github.com/Aditya0254-singh/Subspace-chatbot](https://github.com/Aditya0254-singh/Subspace-chatbot)
-                     cd Subspace-chatbot
+- 🧑‍💻 **Role-Based Security**  
+  Uses **Hasura Row-Level Security (RLS)** to ensure users can only read/write their own chat data.
 
-2. Install dependencies:
-                     npm install
+- 🌐 **Full-Stack Integration**  
+  Uses **n8n** as an orchestrator between the frontend, database, and third-party APIs for a robust data flow.
 
-3. Configure environment variables:
-                     Create a .env file in the project root.
-   
-4. Add your Nhost subdomain and region to the .env file:
-                     VITE_NHOST_SUBDOMAIN=noodbonidjwqpyyhkkas
-                     VITE_NHOST_REGION=ap-south-1
+---
 
-5. Run the application:
-                     npm run dev
+## 🧠 Tech Stack
 
-**The application will be available at http://localhost:5173.**
+- 🧭 **Frontend:** React, Vite  
+- 🛠 **Backend:** Nhost, Hasura, n8n, OpenRouter  
+- 💻 **Languages:** JavaScript, GraphQL  
+- ☁️ **Deployment:** Netlify
+
+---
+
+## 🧰 Project Setup
+
+### 1️⃣ Clone the Repository
+
+`bash
+git clone https://github.com/Aditya0254-singh/Subspace-chatbot.git
+cd Subspace-chatbot`
+
+### 2️⃣ Install Dependencies
+`bash
+npm install`
+
+### 3️⃣ Configure Environment Variables
+
+Create a .env file in the root directory and add:
+
+`ini
+VITE_NHOST_SUBDOMAIN=noodbonidjwqpyyhkkas
+VITE_NHOST_REGION=ap-south-1`
+
+
+Make sure these match your Nhost project settings.
+
+### 4️⃣ Run the Application
+
+`bash
+npm run dev`
+
+
+The app will be available at:
+👉 http://localhost:5173
+
+---
+
+## 🚀 Future Enhancements
+
+- ✅ Integration with multiple AI models for richer responses
+
+- 💬 Group chat functionality with presence indicators
+
+- 🌐 Serverless functions for custom backend logic
+
+- 🧠 Enhanced role-based permissions for admin/moderator features
+
+---
+
+## 📝 Notes
+
+- Requires Node.js v18+ and npm.
+
+- Ensure your Nhost project, database, and Hasura actions are configured properly.
+
+- OpenRouter API key must be valid and securely stored on the backend.
+
+---
+
+## 👨‍💻 Author
+Aditya Singh
+- 📧 adityasinghgzp609@gmail.com
+
+- 💼 LinkedIn
+
+- 🌐 GitHub
+
+--- 
+
+<p align="center">⭐ If you found this project useful, please consider giving it a star!</p>
+
+---
